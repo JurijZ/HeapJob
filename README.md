@@ -1,4 +1,4 @@
-# Prepare MongoDB database (tested with MongodbDB version 3.6)
+# Prepare MongoDB database (tested with Mongodb version 3.6)
     
 Restore Database (first manually create a database named heapjob via UI):  
 mongoimport --db=heapjob --collection=cwjobs --file="C:\HeapJob\MongoDB backup\cwjobs.json"  
